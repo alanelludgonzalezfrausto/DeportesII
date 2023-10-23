@@ -1,0 +1,4 @@
+/* Aplica la fuente "Bebas Neue" a los elementos .nav-link */
+.nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+}

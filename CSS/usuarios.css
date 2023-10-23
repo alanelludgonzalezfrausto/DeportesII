@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Estilo para todos los elementos (*) en el documento */
+/* Elimina márgenes y rellenos predeterminados y ajusta la fuente a sans-serif */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #000, #000);
+}
+
+/* Estilo para el elemento <body> */
+/* Crea un diseño flexbox centrado vertical y horizontalmente */
+/* Establece un fondo con un degradado lineal de negro a negro */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+}
+
+/* Estilo para elementos <form> */
+/* Crea un diseño flexbox de columna para el formulario */
+/* Establece un fondo blanco, alinea el texto al centro y agrega sombra */
+
+form .title {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+/* Estilo para elementos con clase "title" dentro del formulario */
+/* Cambia el color, el tamaño y el peso de la fuente y ajusta el margen inferior */
+
+form label {
+    margin-bottom: 35px;
+}
+
+/* Estilo para etiquetas dentro del formulario */
+/* Ajusta el margen inferior de las etiquetas */
+
+form label .fa-solid {
+    font-size: 20px;
+    color: #cb232c;
+    margin-right: 10px;
+}
+
+/* Estilo para elementos con clase "fa-solid" dentro de etiquetas */
+/* Cambia el tamaño y el color del ícono y ajusta el margen derecho */
+
+form label input {
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #000;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+/* Estilo para campos de entrada (input) dentro de etiquetas */
+/* Elimina el borde, establece el color de texto y agrega un borde inferior */
+
+form label input::placeholder {
+    color: rgba(37, 37, 37, 0.5);
+}
+
+/* Estilo para el texto de marcador de posición de los campos de entrada */
+
+form .link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+/* Estilo para elementos con clase "link" dentro del formulario */
+/* Cambia el color del texto y ajusta el margen inferior */
+
+form button {
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #000, #000);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Estilo para botones dentro del formulario */
+/* Cambia el color de texto, establece el fondo con un degradado y ajusta el tamaño del texto */

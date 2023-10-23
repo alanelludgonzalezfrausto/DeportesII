@@ -1,0 +1,81 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: 'Rajdhani', sans-serif; /* Cambia la fuente de texto a "Rajdhani" */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  background-color: black; /* Establece el color de fondo a negro */
+  color: white; /* Establece el color del texto en blanco */
+}
+
+/* Aplicar regla de estilo a todos los elementos */
+* {
+  box-sizing: border-box; /* Utiliza el modelo de caja "border-box" para todos los elementos */
+}
+
+/* Estilo para los encabezados de nivel 1 (h1) */
+h1 {
+  text-align: center; /* Centra el texto dentro de los encabezados h1 */
+  color: blanchedalmond; /* Cambia el color del texto a "blanchedalmond" (un tono de blanco) */
+  text-decoration: overline; /* Agrega una línea superior a los encabezados h1 */
+}
+
+/* Estilo para el encabezado de la página */
+header {
+  background-color: black; /* Establece el fondo del encabezado en negro */
+}
+
+/* Estilo para el contenedor */
+.contenedor {
+  display: flex; /* Usa el modelo de caja flexible (flex) para el contenedor */
+  align-items: center; /* Centra verticalmente el contenido dentro del contenedor */
+}
+
+/* Estilo para las imágenes dentro del contenedor */
+.contenedor img {
+  max-width: 50%; /* Limita el ancho máximo de las imágenes al 50% del contenedor */
+}
+
+/* Estilo para las listas no ordenadas dentro del contenedor */
+.contenedor ul {
+  list-style-type: none; /* Elimina los marcadores de lista en las listas no ordenadas */
+  margin-left: 20px; /* Establece un margen izquierdo de 20 píxeles */
+}
+
+/* Estilo para los elementos de lista dentro del contenedor */
+.contenedor li {
+  margin: 10px 0; /* Agrega un margen de 10 píxeles arriba y abajo a los elementos de lista */
+}
+
+/* Estilo para los botones con la clase "button" */
+.button {
+  background-color: black; /* Establece el fondo de los botones en negro */
+  color: white; /* Establece el color del texto en blanco */
+  padding: 15px 30px; /* Agrega relleno de 15 píxeles arriba/abajo y 30 píxeles izquierda/derecha */
+  font-size: 24px; /* Establece el tamaño del texto en 24 píxeles */
+  display: block; /* Los botones se muestran como bloques */
+  margin: 0 auto; /* Centra los botones horizontalmente en su contenedor */
+  border-radius: 50px; /* Agrega bordes redondeados a los botones */
+}
+
+/* Cambia el color de fondo de los botones cuando se pasa el cursor sobre ellos */
+button:hover {
+  background-color: red; /* Cambia el fondo a rojo cuando se pasa el cursor sobre los botones */
+}
+
+/* Estilo para las tablas */
+table {
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 100%; /* Establece el ancho de la tabla al 100% del contenedor */
+  border-color: white; /* Cambia el color de los bordes de la tabla a blanco */
+}
+
+/* Estilo para las celdas de encabezado y de datos de la tabla */
+th, td {
+  border: 1px solid white; /* Establece un borde sólido de 1 píxel en las celdas */
+  padding: 8px; /* Agrega relleno de 8 píxeles en las celdas */
+  text-align: center; /* Centra el texto dentro de las celdas */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+th {
+  background-color: #000; /* Establece el fondo de las celdas de encabezado en negro */
+}

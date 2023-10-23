@@ -1,0 +1,81 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: 'Rajdhani', sans-serif; /* Cambia la fuente de texto a "Rajdhani" */
+  margin: 0; /* Establece el margen del cuerpo en 0, eliminando el espacio alrededor de la página */
+  background-color: black; /* Establece el color de fondo del cuerpo en negro */
+  color: white; /* Establece el color del texto en blanco */
+}
+
+/* Estilo global para todos los elementos */
+* {
+  box-sizing: border-box; /* Establece el modelo de caja "border-box" para todos los elementos, lo que garantiza que los tamaños se calculen de manera predecible */
+}
+
+/* Estilo para los encabezados de nivel 1 (h1) */
+h1 {
+  text-align: center; /* Centra el texto dentro de los encabezados h1 */
+  color: blanchedalmond; /* Establece el color del texto de los encabezados h1 en "blanchedalmond" (un tono de blanco) */
+  text-decoration: overline; /* Agrega una línea superior alrededor de los encabezados h1 */
+}
+
+/* Estilo para el encabezado de la página */
+header {
+  background-color: black; /* Establece el color de fondo del encabezado en negro */
+}
+
+/* Estilo para el contenedor */
+.contenedor {
+  display: flex; /* Usa el modelo de caja flexible (flex) para el contenedor, permitiendo un diseño flexible de elementos secundarios */
+  align-items: center; /* Centra verticalmente el contenido dentro del contenedor */
+}
+
+/* Estilo para las imágenes dentro del contenedor */
+.contenedor img {
+  max-width: 50%; /* Limita el ancho máximo de las imágenes al 50% del contenedor, lo que las hace responsivas */
+}
+
+/* Estilo para las listas no ordenadas dentro del contenedor */
+.contenedor ul {
+  list-style-type: none; /* Elimina los marcadores de lista en las listas no ordenadas */
+  margin-left: 20px; /* Establece un margen izquierdo de 20 píxeles para las listas */
+}
+
+/* Estilo para los elementos de lista dentro del contenedor */
+.contenedor li {
+  margin: 10px 0; /* Agrega un margen de 10 píxeles arriba y abajo a los elementos de lista dentro del contenedor */
+}
+
+/* Estilo para los botones con la clase "button" */
+.button {
+  background-color: black; /* Establece el color de fondo de los botones en negro */
+  color: white; /* Establece el color del texto en blanco */
+  padding: 15px 30px; /* Agrega relleno de 15 píxeles arriba/abajo y 30 píxeles izquierda/derecha a los botones */
+  font-size: 24px; /* Establece el tamaño del texto en 24 píxeles */
+  display: block; /* Hace que los botones se muestren como bloques, lo que los coloca en una nueva línea */
+  margin: 0 auto; /* Centra horizontalmente los botones dentro de su contenedor */
+  border-radius: 50px; /* Agrega esquinas redondeadas a los botones, creando un aspecto más suave */
+}
+
+/* Cambia el color de fondo de los botones al pasar el cursor sobre ellos */
+button:hover {
+  background-color: red; /* Cambia el color de fondo de los botones a rojo cuando se pasa el cursor sobre ellos */
+}
+
+/* Estilo para las tablas */
+table {
+  border-collapse: collapse; /* Colapsa los bordes de la tabla para un aspecto más limpio */
+  width: 100%; /* Establece el ancho de la tabla al 100% de su contenedor */
+  border-color: white; /* Cambia el color de los bordes de la tabla a blanco */
+}
+
+/* Estilo para las celdas de encabezado y de datos de la tabla */
+th, td {
+  border: 1px solid white; /* Establece un borde sólido de 1 píxel con color blanco para las celdas de encabezado y datos */
+  padding: 8px; /* Agrega un relleno de 8 píxeles a las celdas */
+  text-align: center; /* Centra el texto dentro de las celdas horizontalmente */
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+th {
+  background-color: #000; /* Establece el fondo de las celdas de encabezado en negro (#000) */
+}

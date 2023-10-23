@@ -1,0 +1,107 @@
+body {
+  font-family: 'Rajdhani', sans-serif; /* Cambiamos la fuente a "Rajdhani" */
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+/* Estilo para el cuerpo de la página */
+/* Cambia la fuente, elimina el margen predeterminado y ajusta los colores de fondo y texto */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Estilo para todos los elementos en la página */
+/* Define una caja de modelo de caja borde-box para todos los elementos */
+
+h1 {
+  text-align: center;
+  color: blanchedalmond;
+  text-decoration: overline;
+}
+
+/* Estilo para encabezados h1 */
+/* Centra el texto, cambia el color y agrega una línea de sobrelineado */
+
+header {
+  background-color: black;
+}
+
+/* Estilo para elementos de encabezado */
+/* Establece un fondo negro */
+
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para elementos con clase "contenedor" */
+/* Crea un diseño de caja flexible y centra los elementos verticalmente */
+
+.contenedor img {
+  max-width: 50%;
+}
+
+/* Estilo para imágenes dentro de elementos con clase "contenedor" */
+/* Establece un ancho máximo del 50% para las imágenes */
+
+.contenedor ul {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+/* Estilo para listas no ordenadas dentro de elementos con clase "contenedor" */
+/* Elimina los marcadores de lista y ajusta el margen izquierdo */
+
+.contenedor li {
+  margin: 10px 0;
+}
+
+/* Estilo para elementos de lista dentro de elementos con clase "contenedor" */
+/* Ajusta el margen superior e inferior */
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 24px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+/* Estilo para elementos con clase "button" */
+/* Define colores, relleno, tamaño de fuente, ubicación y borde redondeado */
+
+button:hover {
+  background-color: red;
+}
+
+/* Estilo para botones cuando se pasa el mouse por encima */
+/* Cambia el color de fondo a rojo */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-color: white;
+}
+
+/* Estilo para tablas */
+/* Define el colapso de bordes y ajusta el ancho y color de borde */
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Estilo para encabezados de tabla (th) y celdas de tabla (td) */
+/* Establece un borde sólido de color blanco, relleno y alineación de texto */
+
+th {
+  background-color: #000;
+}
+
+/* Estilo para encabezados de tabla */
+/* Establece un fondo de color negro */
